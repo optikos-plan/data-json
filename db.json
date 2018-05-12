@@ -9,6 +9,16 @@
       "id": 2,
       "name": "Amal Sudama",
       "email": "Amal@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Horacio Gutierrez",
+      "email": "HoGu@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Benito Suriano",
+      "email": "BenSu@email.com"
     }
   ],
   "tasks": [
@@ -32,13 +42,6 @@
       "children": [3, 4, 5],
       "parents": [1],
       "documents": [],
-      "user": {
-        "id": 2,
-        "name": "Amal",
-        "email": "grace@hopper.com",
-        "createdAt": "2018-05-08T21:28:54.299Z",
-        "updatedAt": "2018-05-08T21:28:54.299Z"
-      },
       "comments": []
     },
     {
@@ -61,19 +64,12 @@
       "children": [],
       "parents": [2],
       "documents": [],
-      "user": {
-        "id": 2,
-        "name": "Amal",
-        "email": "grace@hopper.com",
-        "createdAt": "2018-05-08T21:28:54.299Z",
-        "updatedAt": "2018-05-08T21:28:54.299Z"
-      },
       "comments": []
     },
     {
       "id": 5,
       "startDate": null,
-      "endDate": null,
+      "endDate": "2018-05-27",
       "status": "pending",
       "title": "Wu dong xi",
       "description": "Testing associations",
@@ -90,19 +86,12 @@
       "children": [],
       "parents": [2],
       "documents": [],
-      "user": {
-        "id": 2,
-        "name": "Amal",
-        "email": "grace@hopper.com",
-        "createdAt": "2018-05-08T21:28:54.299Z",
-        "updatedAt": "2018-05-08T21:28:54.299Z"
-      },
       "comments": []
     },
     {
       "id": 3,
       "startDate": null,
-      "endDate": null,
+      "endDate": "2018-10-21",
       "status": "pending",
       "title": "Third task",
       "description": "Testing associations",
@@ -119,26 +108,19 @@
       "children": [],
       "parents": [2],
       "documents": [],
-      "user": {
-        "id": 2,
-        "name": "Amal",
-        "email": "grace@hopper.com",
-        "createdAt": "2018-05-08T21:28:54.299Z",
-        "updatedAt": "2018-05-08T21:28:54.299Z"
-      },
       "comments": []
     },
     {
       "id": 1,
       "startDate": null,
-      "endDate": null,
+      "endDate": "2018-05-27",
       "status": "pending",
       "title": "First task",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
-      "userId": 1,
+      "userId": "3",
       "project": {
         "id": 1,
         "title": "Project 1",
@@ -148,13 +130,6 @@
       "children": [2],
       "parents": [],
       "documents": [],
-      "user": {
-        "id": 1,
-        "name": "Jason",
-        "email": "cody@email.com",
-        "createdAt": "2018-05-08T21:28:54.298Z",
-        "updatedAt": "2018-05-08T21:28:54.298Z"
-      },
       "comments": []
     }
   ]
