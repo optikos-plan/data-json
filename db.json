@@ -39,8 +39,14 @@
         "createdAt": "2018-05-08T21:28:54.334Z",
         "updatedAt": "2018-05-08T21:28:54.334Z"
       },
-      "children": [3, 4, 5],
-      "parents": [1],
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "parents": [
+        1
+      ],
       "documents": [],
       "comments": []
     },
@@ -62,7 +68,9 @@
         "updatedAt": "2018-05-08T21:28:54.334Z"
       },
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -84,7 +92,9 @@
         "updatedAt": "2018-05-08T21:28:54.334Z"
       },
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -106,7 +116,9 @@
         "updatedAt": "2018-05-08T21:28:54.334Z"
       },
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -120,17 +132,38 @@
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
-      "userId": "3",
+      "userId": "2",
       "project": {
         "id": 1,
         "title": "Project 1",
         "createdAt": "2018-05-08T21:28:54.334Z",
         "updatedAt": "2018-05-08T21:28:54.334Z"
       },
-      "children": [2],
+      "children": [
+        2
+      ],
       "parents": [],
       "documents": [],
       "comments": []
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "ACME",
+      "owner": 1,
+      "status": "completed",
+      "tasks": [1,2,3,4,5],
+      "createdAt": "2018-05-08T21:28:54.334Z",
+      "updatedAt": "2018-05-08T21:28:54.334Z"
+    },{
+      "id": 2,
+      "title": "RAVENCLAW",
+      "owner": 2,
+      "tasks": [],
+      "status": "in-progress",
+      "createdAt": "2018-05-08T21:28:54.334Z",
+      "updatedAt": "2018-05-08T21:28:54.334Z"
     }
   ]
 }
