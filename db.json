@@ -25,20 +25,14 @@
     {
       "id": 2,
       "startDate": null,
-      "endDate": null,
-      "status": "pending",
+      "endDate": "2018-05-15",
+      "status": "ASSIGNED",
       "title": "Second task",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
-      "userId": 2,
-      "project": {
-        "id": 1,
-        "title": "Project 1",
-        "createdAt": "2018-05-08T21:28:54.334Z",
-        "updatedAt": "2018-05-08T21:28:54.334Z"
-      },
+      "userId": "1",
       "children": [3, 4, 5],
       "parents": [1],
       "documents": [],
@@ -48,19 +42,13 @@
       "id": 4,
       "startDate": null,
       "endDate": null,
-      "status": "pending",
+      "status": "ASSIGNED",
       "title": "Fourth task",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": 2,
-      "project": {
-        "id": 1,
-        "title": "Project 1",
-        "createdAt": "2018-05-08T21:28:54.334Z",
-        "updatedAt": "2018-05-08T21:28:54.334Z"
-      },
       "children": [],
       "parents": [2],
       "documents": [],
@@ -70,21 +58,15 @@
       "id": 5,
       "startDate": null,
       "endDate": "2018-05-27",
-      "status": "pending",
+      "status": "ASSIGNED",
       "title": "Wu dong xi",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.343Z",
       "updatedAt": "2018-05-08T21:28:54.343Z",
       "projectId": 1,
       "userId": 2,
-      "project": {
-        "id": 1,
-        "title": "Project 1",
-        "createdAt": "2018-05-08T21:28:54.334Z",
-        "updatedAt": "2018-05-08T21:28:54.334Z"
-      },
       "children": [],
-      "parents": [2],
+      "parents": [2, 1],
       "documents": [],
       "comments": []
     },
@@ -92,19 +74,13 @@
       "id": 3,
       "startDate": null,
       "endDate": "2018-10-21",
-      "status": "pending",
+      "status": "ASSIGNED",
       "title": "Third task",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": 2,
-      "project": {
-        "id": 1,
-        "title": "Project 1",
-        "createdAt": "2018-05-08T21:28:54.334Z",
-        "updatedAt": "2018-05-08T21:28:54.334Z"
-      },
       "children": [],
       "parents": [2],
       "documents": [],
@@ -114,23 +90,26 @@
       "id": 1,
       "startDate": null,
       "endDate": "2018-05-27",
-      "status": "pending",
+      "status": "ASSIGNED",
       "title": "First task",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
-      "userId": "3",
-      "project": {
-        "id": 1,
-        "title": "Project 1",
-        "createdAt": "2018-05-08T21:28:54.334Z",
-        "updatedAt": "2018-05-08T21:28:54.334Z"
-      },
-      "children": [2],
+      "userId": "4",
+      "children": [2, 5],
       "parents": [],
       "documents": [],
       "comments": []
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "owner": "4",
+      "title": "Ravenclaw",
+      "status": "ASSIGNED",
+      "tasks": [1, 2, 3, 4, 5]
     }
   ]
 }
