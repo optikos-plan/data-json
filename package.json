@@ -5,11 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "deploy": "sh ./scripts/deploy.sh"
   },
-  "keywords": [
-    "json-server,heroku, node, REST API"
-  ],
+  "keywords": ["json-server, heroku, node, REST API"],
   "author": "Team Optikos",
   "license": "ISC",
   "dependencies": {
