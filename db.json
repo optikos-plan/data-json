@@ -153,10 +153,17 @@
       "title": "ACME",
       "owner": 1,
       "status": "completed",
-      "tasks": [1,2,3,4,5],
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "createdAt": "2018-05-08T21:28:54.334Z",
       "updatedAt": "2018-05-08T21:28:54.334Z"
-    },{
+    },
+    {
       "id": 2,
       "title": "RAVENCLAW",
       "owner": 2,
@@ -164,6 +171,19 @@
       "status": "in-progress",
       "createdAt": "2018-05-08T21:28:54.334Z",
       "updatedAt": "2018-05-08T21:28:54.334Z"
+    },
+    {
+      "title": "Project Title",
+      "owner": "1",
+      "status": "completed",
+      "tasks": "[]",
+      "id": 3
+    },
+    {
+      "owner": "3",
+      "title": "Akamai",
+      "status": "notStarted",
+      "id": 4
     }
   ]
 }
