@@ -161,6 +161,22 @@
       "status": "ASSIGNED",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 5
+    },
+    {
+      "owner": "1",
+      "title": "This Title",
+      "description": "this is the description",
+      "status": "ASSIGNED",
+      "tasks": [],
+      "id": 6
+    },
+    {
+      "owner": "3",
+      "title": "Build Skyscraper",
+      "description": "Very fun project",
+      "status": "ASSIGNED",
+      "tasks": [],
+      "id": 7
     }
   ]
 }
