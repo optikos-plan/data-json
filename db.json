@@ -33,8 +33,14 @@
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": "1",
-      "children": [3, 4, 5],
-      "parents": [1],
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "parents": [
+        1
+      ],
       "documents": [],
       "comments": []
     },
@@ -50,7 +56,9 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -66,7 +74,10 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2, 1],
+      "parents": [
+        2,
+        1
+      ],
       "documents": [],
       "comments": []
     },
@@ -82,7 +93,9 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -91,13 +104,16 @@
       "startDate": null,
       "endDate": "2018-05-27",
       "status": "ASSIGNED",
-      "title": "First task",
+      "title": "Build contruction site in Cozumel",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": "4",
-      "children": [2, 5],
+      "children": [
+        2,
+        5
+      ],
       "parents": [],
       "documents": [],
       "comments": []
@@ -109,7 +125,42 @@
       "owner": "4",
       "title": "Ravenclaw",
       "status": "ASSIGNED",
-      "tasks": [1, 2, 3, 4, 5]
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "owner": "3",
+      "title": "Akamai",
+      "status": "ASSIGNED",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "id": 2
+    },
+    {
+      "owner": "3",
+      "title": "Go to the Beach!",
+      "status": "ASSIGNED",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "id": 3
+    },
+    {
+      "owner": "3",
+      "title": "Go to the Beach!",
+      "status": "ASSIGNED",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "id": 4
+    },
+    {
+      "owner": "1",
+      "title": "Go to El Salvador!",
+      "status": "ASSIGNED",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "id": 5
     }
   ]
 }
