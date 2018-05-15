@@ -33,8 +33,14 @@
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": "1",
-      "children": [3, 4, 5],
-      "parents": [1],
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "parents": [
+        1
+      ],
       "documents": [],
       "comments": []
     },
@@ -50,7 +56,9 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -66,7 +74,10 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2, 1],
+      "parents": [
+        2,
+        1
+      ],
       "documents": [],
       "comments": []
     },
@@ -82,7 +93,9 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -97,7 +110,10 @@
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": "4",
-      "children": [2, 5],
+      "children": [
+        2,
+        5
+      ],
       "parents": [],
       "documents": [],
       "comments": []
@@ -109,16 +125,20 @@
       "owner": "4",
       "title": "Plan graduation party!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "tasks": [1, 2, 3, 4, 5]
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
       "owner": "3",
       "title": "Plan graduation trip!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 2,
       "tasks": []
     },
@@ -126,8 +146,7 @@
       "owner": "3",
       "title": "Plan for career success!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 3,
       "tasks": []
     },
@@ -135,8 +154,7 @@
       "owner": "3",
       "title": "Do the job hunt!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 4,
       "tasks": []
     },
@@ -144,8 +162,7 @@
       "owner": "1",
       "title": "Go to El Salvador!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 5,
       "tasks": []
     }
