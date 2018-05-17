@@ -1,0 +1,264 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jason Yang",
+      "email": "jason@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Amal Sudama",
+      "email": "Amal@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Horacio Gutierrez",
+      "email": "horacio@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Benito Suriano",
+      "email": "benito@email.com"
+    }
+  ],
+  "tasks": [
+    {
+      "projectId": "6",
+      "userId": "3",
+      "title": "Start",
+      "status": "COMPLETED",
+      "children": [
+        7,
+        8
+      ],
+      "parents": [],
+      "id": 6,
+      "endDate": "2018-05-17"
+    },
+    {
+      "projectId": "6",
+      "userId": "1",
+      "title": "Define date",
+      "status": "COMPLETED",
+      "children": [
+        9
+      ],
+      "parents": [
+        6
+      ],
+      "id": 7,
+      "endDate": "2018-05-19"
+    },
+    {
+      "projectId": "6",
+      "userId": "1",
+      "title": "Select venue",
+      "status": "COMPLETED",
+      "children": [
+        9
+      ],
+      "parents": [
+        6
+      ],
+      "id": 8,
+      "endDate": "2018-05-19"
+    },
+    {
+      "projectId": "6",
+      "userId": "4",
+      "title": "Send invitations",
+      "status": "COMPLETED",
+      "children": [
+        10
+      ],
+      "parents": [
+        7,
+        8
+      ],
+      "id": 9,
+      "endDate": "2018-05-20"
+    },
+    {
+      "projectId": "6",
+      "userId": "4",
+      "title": "Confirm attendance",
+      "status": "IN_PROGRESS",
+      "children": [
+        11,
+        12
+      ],
+      "parents": [
+        9
+      ],
+      "id": 10,
+      "endDate": "2018-05-27"
+    },
+    {
+      "projectId": "6",
+      "userId": "2",
+      "title": "Buy Food",
+      "status": "ASSIGNED",
+      "children": [
+        13
+      ],
+      "parents": [
+        10
+      ],
+      "id": 11,
+      "endDate": "2018-05-29"
+    },
+    {
+      "projectId": "6",
+      "userId": "2",
+      "title": "Buy Drinks",
+      "status": "ASSIGNED",
+      "children": [
+        13
+      ],
+      "parents": [
+        10
+      ],
+      "id": 12,
+      "endDate": "2018-05-29"
+    },
+    {
+      "projectId": "6",
+      "userId": "3",
+      "title": "End",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        11,
+        12
+      ],
+      "id": 13,
+      "endDate": "2018-05-31"
+    },
+    {
+      "projectId": "7",
+      "userId": "1",
+      "title": "Start",
+      "status": "ASSIGNED",
+      "children": [
+        15
+      ],
+      "parents": [],
+      "id": 14,
+      "endDate": "2018-05-01"
+    },
+    {
+      "projectId": "7",
+      "userId": "1",
+      "title": "Analysis",
+      "status": "ASSIGNED",
+      "children": [
+        16
+      ],
+      "parents": [
+        14
+      ],
+      "id": 15,
+      "endDate": "2018-05-08"
+    },
+    {
+      "projectId": "7",
+      "userId": "3",
+      "title": "Plan",
+      "status": "ASSIGNED",
+      "children": [
+        17
+      ],
+      "parents": [
+        15
+      ],
+      "id": 16,
+      "endDate": "2018-05-15"
+    },
+    {
+      "projectId": "7",
+      "userId": "2",
+      "title": "Front-End Development",
+      "status": "ASSIGNED",
+      "children": [
+        19
+      ],
+      "parents": [
+        16
+      ],
+      "id": 17,
+      "endDate": "2018-05-22"
+    },
+    {
+      "projectId": "7",
+      "userId": "2",
+      "title": "Back-End Development",
+      "status": "ASSIGNED",
+      "children": [
+        19
+      ],
+      "parents": [],
+      "id": 18,
+      "endDate": "2018-05-22"
+    },
+    {
+      "projectId": "7",
+      "userId": "4",
+      "title": "Testing/QA",
+      "status": "ASSIGNED",
+      "children": [
+        20
+      ],
+      "parents": [
+        18,
+        17
+      ],
+      "id": 19,
+      "endDate": "2018-05-29"
+    },
+    {
+      "projectId": "7",
+      "userId": "4",
+      "title": "END",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        19
+      ],
+      "id": 20,
+      "endDate": "2018-05-31"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "owner": "4",
+      "title": "Plan graduation party!",
+      "status": "IN_PROGRESS",
+      "description": "This is going to be an awesome party for the 1802-FSA-RM cohort! Cody will be doing keg stands all night!!!",
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "owner": "4",
+      "title": "Optikos Project Management Web App",
+      "description": "Develop a visual roadmapping tool to manage small projects",
+      "status": "ASSIGNED",
+      "tasks": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "id": 7
+    }
+  ]
+}
+

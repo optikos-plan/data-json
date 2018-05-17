@@ -26,15 +26,21 @@
       "id": 2,
       "startDate": null,
       "endDate": "2018-05-15",
-      "status": "IN PROGRESS",
+      "status": "IN_PROGRESS",
       "title": "Second task",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": "1",
-      "children": [3, 4, 5],
-      "parents": [1],
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "parents": [
+        1
+      ],
       "documents": [],
       "comments": []
     },
@@ -50,7 +56,9 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -58,7 +66,7 @@
       "id": 5,
       "startDate": null,
       "endDate": "2018-05-27",
-      "status": "IN PROGRESS",
+      "status": "IN_PROGRESS",
       "title": "Wu dong xi",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.343Z",
@@ -66,7 +74,10 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2, 1],
+      "parents": [
+        2,
+        1
+      ],
       "documents": [],
       "comments": []
     },
@@ -82,7 +93,9 @@
       "projectId": 1,
       "userId": 2,
       "children": [],
-      "parents": [2],
+      "parents": [
+        2
+      ],
       "documents": [],
       "comments": []
     },
@@ -97,10 +110,218 @@
       "updatedAt": "2018-05-08T21:28:54.342Z",
       "projectId": 1,
       "userId": "4",
-      "children": [2, 5],
+      "children": [
+        2,
+        5
+      ],
       "parents": [],
       "documents": [],
       "comments": []
+    },
+    {
+      "projectId": "6",
+      "userId": "3",
+      "title": "Start",
+      "status": "ASSIGNED",
+      "children": [
+        7,
+        8
+      ],
+      "parents": [],
+      "id": 6,
+      "endDate": "2018-05-17"
+    },
+    {
+      "projectId": "6",
+      "userId": "1",
+      "title": "Define date",
+      "status": "ASSIGNED",
+      "children": [
+        9
+      ],
+      "parents": [
+        6
+      ],
+      "id": 7,
+      "endDate": "2018-05-19"
+    },
+    {
+      "projectId": "6",
+      "userId": "1",
+      "title": "Select venue",
+      "status": "ASSIGNED",
+      "children": [
+        9
+      ],
+      "parents": [
+        6
+      ],
+      "id": 8,
+      "endDate": "2018-05-19"
+    },
+    {
+      "projectId": "6",
+      "userId": "4",
+      "title": "Send invitations",
+      "status": "ASSIGNED",
+      "children": [
+        10
+      ],
+      "parents": [
+        7,
+        8
+      ],
+      "id": 9,
+      "endDate": "2018-05-20"
+    },
+    {
+      "projectId": "6",
+      "userId": "4",
+      "title": "Confirm attendance",
+      "status": "ASSIGNED",
+      "children": [
+        11,
+        12
+      ],
+      "parents": [
+        9
+      ],
+      "id": 10,
+      "endDate": "2018-05-27"
+    },
+    {
+      "projectId": "6",
+      "userId": "2",
+      "title": "Buy Food",
+      "status": "ASSIGNED",
+      "children": [
+        13
+      ],
+      "parents": [
+        10
+      ],
+      "id": 11,
+      "endDate": "2018-05-29"
+    },
+    {
+      "projectId": "6",
+      "userId": "2",
+      "title": "Buy Drinks",
+      "status": "ASSIGNED",
+      "children": [
+        13
+      ],
+      "parents": [
+        10
+      ],
+      "id": 12,
+      "endDate": "2018-05-29"
+    },
+    {
+      "projectId": "6",
+      "userId": "3",
+      "title": "End",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        11,
+        12
+      ],
+      "id": 13,
+      "endDate": "2018-05-31"
+    },
+    {
+      "projectId": "7",
+      "userId": "1",
+      "title": "Start",
+      "status": "ASSIGNED",
+      "children": [
+        15
+      ],
+      "parents": [],
+      "id": 14,
+      "endDate": "2018-05-01"
+    },
+    {
+      "projectId": "7",
+      "userId": "1",
+      "title": "Analysis",
+      "status": "ASSIGNED",
+      "children": [
+        16
+      ],
+      "parents": [
+        14
+      ],
+      "id": 15,
+      "endDate": "2018-05-08"
+    },
+    {
+      "projectId": "7",
+      "userId": "3",
+      "title": "Plan",
+      "status": "ASSIGNED",
+      "children": [
+        17
+      ],
+      "parents": [
+        15
+      ],
+      "id": 16,
+      "endDate": "2018-05-15"
+    },
+    {
+      "projectId": "7",
+      "userId": "2",
+      "title": "Front-End Development",
+      "status": "ASSIGNED",
+      "children": [
+        19
+      ],
+      "parents": [
+        16
+      ],
+      "id": 17,
+      "endDate": "2018-05-22"
+    },
+    {
+      "projectId": "7",
+      "userId": "2",
+      "title": "Back-End Development",
+      "status": "ASSIGNED",
+      "children": [
+        19
+      ],
+      "parents": [],
+      "id": 18,
+      "endDate": "2018-05-22"
+    },
+    {
+      "projectId": "7",
+      "userId": "4",
+      "title": "Testing/QA",
+      "status": "ASSIGNED",
+      "children": [
+        20
+      ],
+      "parents": [
+        18,
+        17
+      ],
+      "id": 19,
+      "endDate": "2018-05-29"
+    },
+    {
+      "projectId": "7",
+      "userId": "4",
+      "title": "END",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        19
+      ],
+      "id": 20,
+      "endDate": "2018-05-31"
     }
   ],
   "projects": [
@@ -109,16 +330,20 @@
       "owner": "4",
       "title": "Plan graduation party!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "tasks": [1, 2, 3, 4, 5]
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "tasks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     {
       "owner": "3",
       "title": "Plan graduation trip!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 2,
       "tasks": []
     },
@@ -126,8 +351,7 @@
       "owner": "3",
       "title": "Plan for career success!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 3,
       "tasks": []
     },
@@ -135,8 +359,7 @@
       "owner": "3",
       "title": "Do the job hunt!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 4,
       "tasks": []
     },
@@ -144,10 +367,42 @@
       "owner": "1",
       "title": "Go to El Salvador!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 5,
       "tasks": []
+    },
+    {
+      "owner": "3",
+      "title": "FullStack Graduation Party",
+      "description": "Plan a party with classmates",
+      "status": "ASSIGNED",
+      "tasks": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "id": 6
+    },
+    {
+      "owner": "4",
+      "title": "Optikos Project Management Web App",
+      "description": "Develop a visual roadmapping tool to manage small projects",
+      "status": "ASSIGNED",
+      "tasks": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "id": 7
     }
   ]
 }
