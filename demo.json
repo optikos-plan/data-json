@@ -226,6 +226,152 @@
       ],
       "id": 20,
       "endDate": "2018-05-31"
+    },
+    {
+      "projectId": "8",
+      "userId": "2",
+      "title": "Start",
+      "status": "ASSIGNED",
+      "children": [
+        22
+      ],
+      "parents": [],
+      "id": 21,
+      "endDate": "2018-05-29"
+    },
+    {
+      "projectId": "8",
+      "userId": "3",
+      "title": "Define travel dates",
+      "status": "ASSIGNED",
+      "children": [
+        24,
+        23,
+        25
+      ],
+      "parents": [
+        21
+      ],
+      "id": 22,
+      "endDate": "2018-06-05"
+    },
+    {
+      "projectId": "8",
+      "userId": "2",
+      "title": "Book flight",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        22
+      ],
+      "id": 23,
+      "endDate": "2018-06-12"
+    },
+    {
+      "projectId": "8",
+      "userId": "2",
+      "title": "Book hotel",
+      "status": "ASSIGNED",
+      "children": [
+        26
+      ],
+      "parents": [
+        22
+      ],
+      "id": 24,
+      "endDate": "2018-06-12"
+    },
+    {
+      "projectId": "8",
+      "userId": "2",
+      "title": "Book car",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        22
+      ],
+      "id": 25,
+      "endDate": "2018-06-12"
+    },
+    {
+      "projectId": "8",
+      "userId": "1",
+      "title": "Create packing checklist",
+      "status": "ASSIGNED",
+      "children": [
+        27
+      ],
+      "parents": [
+        24
+      ],
+      "id": 26,
+      "endDate": "2018-06-15"
+    },
+    {
+      "projectId": "8",
+      "userId": "1",
+      "title": "Shop for items needed for trip",
+      "status": "ASSIGNED",
+      "children": [
+        28,
+        29,
+        30
+      ],
+      "parents": [
+        26
+      ],
+      "id": 27,
+      "endDate": "2018-06-17"
+    },
+    {
+      "projectId": "8",
+      "userId": "4",
+      "title": "Pack for trip",
+      "status": "ASSIGNED",
+      "children": [
+        31
+      ],
+      "parents": [
+        27
+      ],
+      "id": 28,
+      "endDate": "2018-06-22"
+    },
+    {
+      "projectId": "8",
+      "userId": "4",
+      "title": "Travel documents",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        27
+      ],
+      "id": 29,
+      "endDate": "2018-06-22"
+    },
+    {
+      "projectId": "8",
+      "userId": "4",
+      "title": "Schedule taxi pick-up to airport",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        27
+      ],
+      "id": 30,
+      "endDate": "2018-06-22"
+    },
+    {
+      "projectId": "8",
+      "userId": "2",
+      "title": "End",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        28
+      ],
+      "id": 31,
+      "endDate": "2018-06-25"
     }
   ],
   "projects": [
@@ -258,6 +404,26 @@
         20
       ],
       "id": 7
+    },
+    {
+      "owner": "2",
+      "title": "Trip to Cancun",
+      "description": "Relax at a luxury hotel with ocean view",
+      "status": "ASSIGNED",
+      "tasks": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "id": 8
     }
   ]
 }
