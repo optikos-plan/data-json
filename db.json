@@ -42,7 +42,7 @@
       "id": 4,
       "startDate": null,
       "endDate": null,
-      "status": "ASSIGNED",
+      "status": "COMPLETED",
       "title": "Fourth task",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.342Z",
@@ -58,7 +58,7 @@
       "id": 5,
       "startDate": null,
       "endDate": "2018-05-27",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "title": "Wu dong xi",
       "description": "Testing associations",
       "createdAt": "2018-05-08T21:28:54.343Z",
@@ -108,7 +108,7 @@
       "id": 1,
       "owner": "4",
       "title": "Plan graduation party!",
-      "status": "ASSIGNED",
+      "status": "COMPLETED",
       "description":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "tasks": [1, 2, 3, 4, 5]
@@ -125,7 +125,7 @@
     {
       "owner": "3",
       "title": "Plan for career success!",
-      "status": "ASSIGNED",
+      "status": "IN_PROGRESS",
       "description":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "id": 3,
