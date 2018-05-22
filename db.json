@@ -50,7 +50,7 @@
       "projectId": "1",
       "userId": "1",
       "title": "erwtertwert",
-      "status": "IN_PROGRESS",
+      "status": "ASSIGNED",
       "children": [],
       "parents": [
         1
@@ -115,7 +115,7 @@
       "owner": "1",
       "title": "Graduation Party",
       "description": "Plan Party",
-      "status": "ASSIGNED",
+      "status": "IN_PROGRESS",
       "tasks": [
         1,
         2,
@@ -135,6 +135,19 @@
         7
       ],
       "id": 2
+    },
+    {
+      "owner": "1",
+      "title": "Trip to the Beach",
+      "description": "Relax time!!!",
+      "status": "COMPLETED",
+      "tasks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "id": 3
     }
   ]
 }
