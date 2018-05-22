@@ -50,7 +50,7 @@
       "projectId": "1",
       "userId": "1",
       "title": "erwtertwert",
-      "status": "ASSIGNED",
+      "status": "IN_PROGRESS",
       "children": [],
       "parents": [
         1
@@ -100,7 +100,7 @@
       "projectId": "2",
       "userId": "1",
       "title": "Default Task",
-      "status": "IN_PROGRESS",
+      "status": "ASSIGNED",
       "children": [
         6
       ],
@@ -115,7 +115,7 @@
       "owner": "1",
       "title": "Graduation Party",
       "description": "Plan Party",
-      "status": "COMPLETED",
+      "status": "ASSIGNED",
       "tasks": [
         1,
         2,
