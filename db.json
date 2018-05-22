@@ -6,148 +6,135 @@
       "email": "json@argo.zero.com"
     },
     {
-      "id": 2,
-      "name": "Amal Sudama",
-      "email": "Amal@email.com"
-    },
-    {
-      "id": 3,
       "name": "Horacio Gutierrez",
-      "email": "HoGu@email.com"
+      "email": "horacio@email.com",
+      "id": 2
     },
     {
-      "id": 4,
       "name": "Benito Suriano",
-      "email": "BenSu@email.com"
+      "email": "benito@email.com",
+      "id": 3
+    },
+    {
+      "name": "Amal Sudama",
+      "email": "amal@email.com",
+      "id": 4
     }
   ],
   "tasks": [
     {
-      "id": 2,
-      "startDate": null,
-      "endDate": "2018-05-15",
-      "status": "IN_PROGRESS",
-      "title": "Second task",
-      "description": "Testing associations",
-      "createdAt": "2018-05-08T21:28:54.342Z",
-      "updatedAt": "2018-05-08T21:28:54.342Z",
-      "projectId": 1,
+      "projectId": "1",
       "userId": "1",
-      "children": [3, 4, 5],
-      "parents": [1],
-      "documents": [],
-      "comments": []
-    },
-    {
-      "id": 4,
-      "startDate": null,
-      "endDate": null,
-      "status": "ASSIGNED",
-      "title": "Fourth task",
-      "description": "Testing associations",
-      "createdAt": "2018-05-08T21:28:54.342Z",
-      "updatedAt": "2018-05-08T21:28:54.342Z",
-      "projectId": 1,
-      "userId": 2,
-      "children": [],
-      "parents": [2],
-      "documents": [],
-      "comments": []
-    },
-    {
-      "id": 5,
-      "startDate": null,
-      "endDate": "2018-05-27",
-      "status": "IN_PROGRESS",
-      "title": "Wu dong xi",
-      "description": "Testing associations",
-      "createdAt": "2018-05-08T21:28:54.343Z",
-      "updatedAt": "2018-05-08T21:28:54.343Z",
-      "projectId": 1,
-      "userId": 2,
-      "children": [],
-      "parents": [2, 1],
-      "documents": [],
-      "comments": []
-    },
-    {
-      "id": 3,
-      "startDate": null,
-      "endDate": "2018-10-21",
+      "title": "Default Task",
       "status": "COMPLETED",
-      "title": "Third task",
-      "description": "Testing associations",
-      "createdAt": "2018-05-08T21:28:54.342Z",
-      "updatedAt": "2018-05-08T21:28:54.342Z",
-      "projectId": 1,
-      "userId": 2,
-      "children": [],
-      "parents": [2],
-      "documents": [],
-      "comments": []
-    },
-    {
-      "id": 1,
-      "startDate": null,
-      "endDate": "2018-05-27",
-      "status": "COMPLETED",
-      "title": "Build contruction site in Cozumel",
-      "description": "Testing associations",
-      "createdAt": "2018-05-08T21:28:54.342Z",
-      "updatedAt": "2018-05-08T21:28:54.342Z",
-      "projectId": 1,
-      "userId": "4",
-      "children": [2, 5],
+      "children": [
+        2,
+        3
+      ],
       "parents": [],
-      "documents": [],
-      "comments": []
+      "id": 1,
+      "endDate": "2018-05-18"
+    },
+    {
+      "projectId": "1",
+      "userId": "1",
+      "title": "sdfasdf",
+      "status": "COMPLETED",
+      "children": [],
+      "parents": [
+        1
+      ],
+      "id": 2
+    },
+    {
+      "projectId": "1",
+      "userId": "1",
+      "title": "erwtertwert",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        1
+      ],
+      "id": 3
+    },
+    {
+      "projectId": "2",
+      "userId": "1",
+      "title": "Create guest list",
+      "status": "COMPLETED",
+      "children": [
+        5,
+        7
+      ],
+      "parents": [],
+      "id": 4,
+      "endDate": "2018-05-18"
+    },
+    {
+      "projectId": "2",
+      "userId": "1",
+      "title": "Send invitations",
+      "status": "COMPLETED",
+      "children": [
+        6
+      ],
+      "parents": [
+        4
+      ],
+      "id": 5,
+      "endDate": "2018-05-22"
+    },
+    {
+      "projectId": "2",
+      "userId": "1",
+      "title": "Confirm attendance",
+      "status": "ASSIGNED",
+      "children": [],
+      "parents": [
+        7,
+        5
+      ],
+      "id": 6
+    },
+    {
+      "projectId": "2",
+      "userId": "1",
+      "title": "Default Task",
+      "status": "ASSIGNED",
+      "children": [
+        6
+      ],
+      "parents": [
+        4
+      ],
+      "id": 7
     }
   ],
   "projects": [
     {
-      "id": 1,
-      "owner": "4",
-      "title": "Plan graduation party!",
+      "owner": "1",
+      "title": "Graduation Party",
+      "description": "Plan Party",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "tasks": [1, 2, 3, 4, 5]
-    },
-    {
-      "owner": "3",
-      "title": "Plan graduation trip!",
-      "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "id": 2,
-      "tasks": []
-    },
-    {
-      "owner": "3",
-      "title": "Plan for career success!",
-      "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "id": 3,
-      "tasks": []
-    },
-    {
-      "owner": "3",
-      "title": "Do the job hunt!",
-      "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "id": 4,
-      "tasks": []
+      "tasks": [
+        1,
+        2,
+        3
+      ],
+      "id": 1
     },
     {
       "owner": "1",
-      "title": "Go to El Salvador!",
+      "title": "FullStack Academy Graduation Party",
+      "description": "Invite Everyone!!!",
       "status": "ASSIGNED",
-      "description":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "id": 5,
-      "tasks": []
+      "tasks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "id": 2
     }
   ]
 }
